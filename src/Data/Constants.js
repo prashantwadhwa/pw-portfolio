@@ -9,7 +9,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "A Tech Geek, a Web Developer, with good command in HTML, CSS, JSI am a Tech Geek and skilled Web Developer. With a dedicated YouTube Channel, I've fostered a community of over 6000 Subscribers, where I delve into comprehensive reviews of the latest Tech Gadgets, sharing my passion with fellow enthusiasts. My creative prowess extends further as a UI/UX Designer, allowing me to artistically communicate stories that linger in memory...",
   github: "https://github.com/prashantwadhwa",
   resume:
     "https://drive.google.com/file/d/1xsozm4zajKconjAFdvD0_pXrZKUYo1if/view?usp=sharing",
