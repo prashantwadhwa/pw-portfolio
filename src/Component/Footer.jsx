@@ -4,7 +4,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import {AiFillDribbbleCircle} from 'react-icons/ai'
+import {AiFillDribbbleCircle, AiFillYoutube} from 'react-icons/ai'
 import { Bio } from "../Data/Constants";
 
 
@@ -102,8 +102,8 @@ const Footer = () => {
         </Nav>
 
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookIcon />
+          <SocialMediaIcon href={Bio.youtube} target="display">
+            <AiFillYoutube />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
