@@ -1,4 +1,4 @@
-import memeGen from '../assets/project_images/meme generator.jpg'
+import memeGen from "../assets/project_images/meme generator.jpg";
 
 export const Bio = {
   name: "Prashant Wadhwa",
@@ -90,10 +90,11 @@ export const skills = [
       //   image:
       //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       // },
-      
+
       {
         name: "Supabase",
-        image: "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png",
+        image:
+          "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png",
       },
       {
         name: "MongoDB",
@@ -173,7 +174,7 @@ export const skills = [
         image:
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
       },
-      
+
       {
         name: "Adobe After Effects",
         image:
@@ -186,7 +187,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    
+
     role: "Fullstack Web Development Intern",
     company: "OOPS Info Solutions",
     date: "June 2023 - August 2023",
@@ -204,24 +205,16 @@ export const experiences = [
   },
   {
     id: 1,
-    
+
     role: "Frontend Web Developer Internship",
     company: "Aggarwal Computer Education",
     date: "July 2022 - August 2022",
     desc: "Learnt and improved my Frontend Web Development Skills.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ExpressJS",
-      "NodeJs",
-      "Bootstrap",
-      
-    ],
+    skills: ["HTML", "CSS", "JavaScript", "ExpressJS", "NodeJs", "Bootstrap"],
   },
   {
     id: 2,
-    
+
     role: "Open Source Contributor ",
     company: "HacktoberFest",
     date: "October 2022 - Present",
@@ -229,7 +222,7 @@ export const experiences = [
   },
   {
     id: 3,
-    
+
     role: "Graphics Designer",
     company: "Trendy Vibes",
     date: "May 2021 - April 2022",
@@ -244,7 +237,7 @@ export const experiences = [
   },
   {
     id: 4,
-    
+
     role: "Video Editor",
     company: "Prashant Wadhwa",
     date: "2020 - Present",
@@ -257,7 +250,6 @@ export const experiences = [
       "DOP",
     ],
   },
-
 ];
 
 export const education = [
@@ -266,8 +258,8 @@ export const education = [
     img: "https://storage.googleapis.com/ezap-prod/colleges/1036/seth-jai-parkash-mukand-lal-institute-of-engineering-and-technology-yamuna-nagar-logo.png",
     school: "Seth Jai Prakash Mukand Lal Institute of Technology, Radaur",
     date: "2020 - 2024",
-    grade: "8.9 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Seth Jai Prakash Mukand Lal Institute of Technology, Radaur. I have completed 6 semesters and have a CGPA of 8.9. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    grade: "8.7 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Seth Jai Prakash Mukand Lal Institute of Technology, Radaur. I have completed 6 semesters and have a CGPA of 8.7. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
@@ -292,19 +284,39 @@ export const education = [
 
 export const projects = [
   {
+    id: 20,
+    title: "Projectify",
+    description:
+      "Projectify is a cutting-edge project management website meticulously designed to empower corporates, teams, and companies with seamless project organization and collaboration. Our platform serves as the central hub for your project management needs, offering an array of features to streamline your operations. With ProjectHub, multiple projects can be effortlessly created and managed, providing a clear overview of your organization's project portfolio. The intuitive interface simplifies project initiation, monitoring, and reporting, ensuring that you can stay on top of your project deadlines and milestones with ease. Whether it's individual team members, departments, or external stakeholders, our platform enables precise task allocation, ensuring everyone knows their role in the project's success.",
+    image:
+      "https://cdn.dribbble.com/userupload/11123857/file/original-bef1d1b20ecc24a1fbe0f78e42698ca4.jpg?resize=1024x523",
+    tags: ["ReactJS", "Firebase"],
+    category: "web app",
+    github: "https://github.com/prashantwadhwa/projectify",
+    webapp: "https://projectify-pw.netlify.app/",
+  },
+
+  {
+    id: 10,
+    title: "The Mystic Spice",
+    description:
+      "Developed The Mystic Spice, an Internal Hotel Management Website, to streamline hotel operations. Implemented features for creating, checking-in, and deleting bookings, managing hotel rooms(cabins), and User administration. Designed a User-Friendly Interface, with Dark Mode support. Employees can update their profiles and passwords. Created a Dynamic Dashboard providing Real-time insights, including Booking Stats, Sales Data, check-in status, occupancy rates, Pie charts and Graphs for analysis.",
+    image:
+      "https://cdn.dribbble.com/userupload/9985238/file/original-f0ee0e4ab2be048157965e3283ccd2db.jpg?resize=1024x527",
+    tags: ["ReactJS", "Supabase", "Recharts", "Styled Components"],
+    category: "web app",
+    github: "https://github.com/prashantwadhwa/the-mystic-spice-project",
+    webapp: "https://the-mystic-spice.netlify.app/",
+  },
+  
+  {
     id: 9,
     title: "Gymmick",
     description:
       "Gymmick is an Exercise Web Application, with the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples, pagination, exercise details, pull related videos from youtube, display similar exercises, and much more, Golds Gym is the best React Fitness App that you can currently find on YouTube and on the entire internet.",
     image:
       "https://cdn.dribbble.com/userupload/9347041/file/original-45c4e84f205b1f00815c50bb3e2acb9a.jpg?resize=1024x531",
-    tags: [
-      "React Js",
-      "Node Js",
-      "Express Js",
-      "Rapi API",
-      "Redux",
-    ],
+    tags: ["React Js", "Node Js", "Express Js", "Rapi API", "Redux"],
     category: "web app",
     github: "https://github.com/prashantwadhwa/Gymmick",
     webapp: "https://gymmick.netlify.app/",
@@ -316,7 +328,7 @@ export const projects = [
       "Experience weather tracking like never before with our intuitive Weather App. Get real-time updates on temperature, humidity, and forecasts for your location. With a user-friendly interface, stay prepared with hourly and daily forecasts at your fingertips. Whether you're planning outdoor activities or just staying informed, our Weather App ensures you're always one step ahead of the elements.",
     image:
       "https://cdn.dribbble.com/userupload/9347079/file/original-f2ce5f8c7c4b55d26f40a0569043fdc5.jpg?resize=752x643",
-    tags: ["React Js","Node Js", "Express Js", "Redux"],
+    tags: ["React Js", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/prashantwadhwa/weather",
     webapp: "https://pw-weather.netlify.app/",
@@ -328,10 +340,7 @@ export const projects = [
       "Introducing our Password Generator tool, your solution to creating robust and secure passwords. Safeguard your online accounts with ease by generating complex passwords that meet the highest security standards. Customize password length and include a mix of uppercase, lowercase, numbers, and symbols for optimal protection. With our Password Generator, you can strengthen your digital security in seconds. Enhance your online safety now.",
     image:
       "https://cdn.dribbble.com/userupload/9346976/file/original-e959a3a96921ac3e428f0fed6fe02f82.jpg?resize=1024x639",
-    tags: [
-      "React Js",
-      "Redux",
-    ],
+    tags: ["React Js", "Redux"],
     category: "web app",
     github: "https://github.com/prashantwadhwa/password-generator",
     webapp: "https://pw-password-generator.netlify.app/",
@@ -339,14 +348,10 @@ export const projects = [
   {
     id: 1,
     title: "React MEME Generator",
-    description:
-      "Generates Memes on specific keyword searches!",
+    description: "Generates Memes on specific keyword searches!",
     image:
-    "https://cdn.dribbble.com/userupload/9346954/file/original-f88816e8eddee5b6db293637f957b572.jpg?resize=1024x634",
-    tags: [
-      "React Js",
-      "Redux",
-    ],
+      "https://cdn.dribbble.com/userupload/9346954/file/original-f88816e8eddee5b6db293637f957b572.jpg?resize=1024x634",
+    tags: ["React Js", "Redux"],
     category: "web app",
     github: "https://github.com/prashantwadhwa/react-meme-generator",
     webapp: "https://react-meme-generator-pi.vercel.app/",
@@ -358,17 +363,16 @@ export const projects = [
       "Streamline your tasks and manage your time effectively using our Todo List with Calendar Scheduling. Stay on top of your commitments by creating to-do items and seamlessly integrating them with a dynamic calendar. Plan your days, weeks, and months with ease, setting reminders and deadlines to ensure you never miss a beat. Experience the convenience of task management and scheduling combined in one powerful tool. Get started today and bring order to your busy life.",
     image:
       "https://cdn.dribbble.com/userupload/9347173/file/original-ce4c8e0a53e94cdad30745560f2300f5.jpg?resize=1024x523",
-    tags: ["React Js", "Redux","Node JS"],
+    tags: ["React Js", "Redux", "Node JS"],
     category: "web app",
     github: "https://github.com/prashantwadhwa/prodcast",
     webapp: "https://prodcast-to-do.netlify.app/",
   },
-  
+
   {
     id: 3,
     title: "Nike Website",
-    description:
-      "Nike Website Landing Page created in a unique way!",
+    description: "Nike Website Landing Page created in a unique way!",
     image:
       "https://cdn.dribbble.com/userupload/6364704/file/original-60ef11d41911ada60efeeb41f2942786.png?resize=1504x1060",
     tags: ["Figma"],
@@ -376,12 +380,11 @@ export const projects = [
     github: "",
     webapp: "https://dribbble.com/shots/21237103-NIKE-Landing-Page-Daily-UI-3",
   },
-  
+
   {
     id: 6,
     title: "Sign Up",
-    description:
-      "Here's a Sign Up Page I made using Figma!",
+    description: "Here's a Sign Up Page I made using Figma!",
     image:
       "https://cdn.dribbble.com/userupload/6288566/file/original-69e54fec908d6c6188a182143f0117fe.png?resize=1200x780",
     tags: ["Figma"],
@@ -392,20 +395,19 @@ export const projects = [
   {
     id: 8,
     title: "Credit Card Checkout",
-    description:
-      "Here's a Credit Card Checkout interface I made using Figma!",
+    description: "Here's a Credit Card Checkout interface I made using Figma!",
     image:
       "https://cdn.dribbble.com/userupload/6334643/file/original-b16043b66fb9f0e18df32c17c588dfc0.png?resize=1200x770",
     tags: ["Figma"],
     category: "figma projects",
     github: "",
-    webapp: "https://dribbble.com/shots/21226515-Credit-Card-Checkout-Daily-UI-2",
+    webapp:
+      "https://dribbble.com/shots/21226515-Credit-Card-Checkout-Daily-UI-2",
   },
   {
     id: 5,
     title: "Calculator Light/Dark Mode",
-    description:
-      "Here's a Calculator App interface I made using Figma!.",
+    description: "Here's a Calculator App interface I made using Figma!.",
     image:
       "https://cdn.dribbble.com/userupload/6383908/file/original-acf9d97ec98b0e629d9b1114eb4ca909.png?resize=1200x759",
     tags: ["Figma"],
@@ -416,8 +418,7 @@ export const projects = [
   {
     id: 5,
     title: "Error 404 Page",
-    description:
-      "Here's a Layout of an Error 404 Page I made using Figma!.",
+    description: "Here's a Layout of an Error 404 Page I made using Figma!.",
     image:
       "https://cdn.dribbble.com/userupload/6549409/file/original-298048f79936640ce08a54458a8fe58a.png?resize=1024x630",
     tags: ["Figma"],
@@ -435,20 +436,10 @@ export const projects = [
     tags: ["Figma"],
     category: "figma projects",
     github: "",
-    webapp: "https://dribbble.com/shots/21351496-Daily-UI-012-E-Commerce-Shop-Single-Item",
+    webapp:
+      "https://dribbble.com/shots/21351496-Daily-UI-012-E-Commerce-Shop-Single-Item",
   },
-  {
-    id: 10,
-    title: "Realtime Chat Application",
-    description:
-      "Discover the power of instant connection through our Real-Time Chat Application, enhanced with secure user login functionality. Effortlessly engage in real-time conversations with friends, family, or coworkers, keeping the conversation alive and vibrant. Our robust login system ensures your conversations are private and accessible only to you, guaranteeing a personalized and secure experience. Start chatting in real time and experience the next level of communication convenience. Join us today and embrace the future of instant interaction.",
-    image:
-      "https://media.istockphoto.com/id/1340913476/photo/coming-soon-banner-in-dark-blue-with-orange-text-letters-in-3d.webp?b=1&s=170667a&w=0&k=20&c=lSX4VpxU3LyPGJ4ppVeUa_0wuJSa7wujgC_sFtHyat4=",
-    tags: ["ReactJS", "Redux", "NodeJS", "ExpressJS", "MongoDB", "Material UI"],
-    category: "upcoming projects",
-    github: "",
-    webapp: "",
-  },
+
   {
     id: 9,
     title: "StudyNotion: Edtech Website",
